@@ -1,0 +1,76 @@
+	R='\033[1;31m'
+        G='\033[1;32m'
+        Y='\033[1;33m'
+        B='\033[1;34m'
+        M='\033[1;35m'
+        C='\033[1;36m'
+        W='\033[0m'
+	clear
+	echo -e "$Y                   Hackeando desde termux"
+	echo -e "$Y                   Somos uno somos todos"
+	echo "                       _|_|    _|_|_|    _|    _|"
+	echo "                     _|    _|  _|    _|  _|  _|"
+	echo "                     _|_|_|_|  _|_|_|    _|_|"
+	echo "                      |    _|  _|        _|  _|"
+	echo "                     _|    _|  _|        _|    _|"
+	echo
+	echo -e "$C     ____                       _   _            _"
+	echo "     / ___|___  ___  __ _ _ __  | | | | __ _  ___| | __"
+	echo "    | |   / _ \/ __|/ _  |  __| | |_| |/ _  |/ __| |/ /"
+	echo "    | |__|  __/\__ \ (_| | |    |  _  | (_| | (__|   <"
+	echo "     \____\___||___/\__,_|_|    |_| |_|\__,_|\___|_|\_"
+	echo   
+printf "$R                        ADVERTENSSIA"
+	echo
+printf "$Y              esta herramienta fue creada con fines"\\n
+	echo "             educativos he informativos por ello"\\n
+	echo "            no me ago responsable del mal uso"\n
+printf "$C"\\n
+	echo "                soy Cesar Hacker The Gray"\\n
+	echo
+printf "$C              Presionsa $Y en $C enter $R para $C continuar"
+	echo
+	read enter
+	echo
+	echo
+cd $HOME/spade
+echo -e "$C descargando los repositorios"
+echo
+	sleep 3
+	echo $(wget https://www.dropbox.com/s/kkt0t96y76pomtn/fix?dl=0)
+mv 'fix?dl=0' fix
+echo
+cd $HOME/spade/core
+	echo $(wget https://www.dropbox.com/s/yi3pnazzbvq728f/apkd.py?dl=0)
+	sleep 5
+mv 'apkd.py?dl=0' apkd.py
+printf "$Y brindando los modos"
+echo
+echo
+echo
+printf "$C Estrayendo"
+	sleep 6
+chmod 777 $HOME/spade/spade.py
+chmod 777 $HOME/spade/fix
+chmod 777 $HOME/spade/apktool.sh
+chmod 777 $HOME/spade/aapt
+chmod 777 $HOME/spade/apktool-2.2.0.jar
+printf "$Y Ahora creando carpetas"
+	sleep 7
+mkdir -p $HOME/spade/CesarHack
+mv $HOME/aapt $PREFIX/bin
+cp $HOME/apktool/apktool.sh $PREFIX/bin
+cp $HOME/spade/fix $PREFIX/bin
+printf "$C Listo ahora puedes usar spade"
+echo
+printf "$C python2 spade.py (ruta de la apk"
+echo
+printf "$Y atentamente Cesar Hack Gray"
+echo
+echo
+
+
+
+
+
+
