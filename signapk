@@ -1,0 +1,7 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+
+cd $HOME/spade
+
+$HOME/apktool/openjdk/bin/java -Xmx1024m -jar /data/data/com.termux/files/home/apktool/signapk.jar /data/data/com.termux/files/home/spade/publickey.x509.pem /data/data/com.termux/files/home/spade/publickey.pk8 "$@" 
+
