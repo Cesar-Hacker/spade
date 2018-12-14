@@ -61,6 +61,7 @@ chmod 777 $HOME/spade/publickey.x509.pem
 chmod 777 $HOME/spade/publickey.pk8
 chmod 777 $HOME/spade/signapk 
 chmod 777 $HOME/spade/signapk.jar
+cp $HOME/spade/signapk.jar $HOME/apktool
 chmod 777 $HOME/spade/apktool.sh
 
 
