@@ -92,6 +92,8 @@ printf "$C python2 spade.py (ruta de la apk"
 echo
 printf "$Y atentamente Cesar Hack Gray && Mickey "
 echo
+rm -rf $HOME/Spade_in_Termux
+rm -rf $HOME/spade/Cesar
 echo
 
 
